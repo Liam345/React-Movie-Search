@@ -5,7 +5,7 @@ const theme = {
     container: {
     display:'flex',
     justifyContent:'center',
-      position: 'relative'
+      position: 'relative',
     },
     input: {
       width: 400,
@@ -19,6 +19,7 @@ const theme = {
       borderTopRightRadius: 4,
       borderBottomLeftRadius: 4,
       borderBottomRightRadius: 4,
+      
     },
     inputFocused: {
       outline: 'none'
@@ -137,9 +138,3 @@ class SearchAuto extends React.Component {
 
 export default SearchAuto;
 
-// const baseUrl = "https://api.themoviedb.org/3/search/movie?api_key=2953c5d9cfcc863abe654f340f17914f&query=";
-// const url = `${baseUrl}${term}`;
-
-// fetch(url)
-// .then((resp) => resp.json()) 
-// .then((data) => console.log(data));

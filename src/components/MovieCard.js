@@ -5,14 +5,13 @@ import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
 import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 import {baseUrl, size300,size500} from '../Data/Movie';
-//import SearchMovie from '../Data/SearchMovie';
 
 
 const styles = {
   card: {
     maxWidth: 800,
      height:500,
-    margin: '100px auto',
+    marginTop: 50,
     display:'flex',
     overflow:'hidden'
     
