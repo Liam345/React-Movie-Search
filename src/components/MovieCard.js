@@ -11,7 +11,7 @@ const styles = {
   card: {
     maxWidth: 800,
      height:500,
-    marginTop: 50,
+    marginTop: 10,
     display:'flex',
     overflow:'hidden'
     
@@ -20,15 +20,13 @@ const styles = {
   media: {
     height: 500,
     width: 350,
-    zIndex:1
-    
-    
+    zIndex:1,
   },
   content: {
     height: 500,
+    width:450,
     display:'flex',
     flexDirection:'column',
-    width:450,
     backgroundColor:'#000000',
     opacity:0.9,
     marginBottom:25,
@@ -39,17 +37,14 @@ const styles = {
     fontSize:'35px',
     paddingLeft:100,
     marginBottom:50,
-    
 },
 body:{
     color:'#FFFFFF',
     marginBottom:25,
-    
-    
+    fontSize:'15px',
 },
 tile: {
     color:'green',
-    
 }
 };
 
@@ -66,8 +61,8 @@ function SimpleMediaCard(props) {
       <Card className={classes.card}>
         <CardMedia 
           className={classes.media}
-          image= {`${baseUrl}${size500}${poster_path}`} 
-          title={original_title}
+         image= {`${baseUrl}${size500}${poster_path}`} 
+          title={original_title} 
         />
       
       <CardContent className={classes.content}>

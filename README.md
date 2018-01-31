@@ -12,7 +12,7 @@ Key tools used in this React project are:
 node.js is required in the machine to get npm
 To download the code:
 1) Clone the repo: 
-git clone
+git clone https://github.com/Liam345/React-Movie-Search.git
 2) cd type-search
 3) Install packages:
 npm install

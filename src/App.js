@@ -22,11 +22,11 @@ const styles ={
     color: '#081C24'
   },
   container: {
-    maxWidth: 800,
+    display:'flex',
+    justifyContent:'center',
+    maxWidth: 2000,
     height:500,
     position:'relative',
-    marginLeft:200,
-    //marginTop:25
   },
   logo: {
     height:75,
@@ -104,7 +104,7 @@ class App extends Component {
         </div>
         <SearchAuto onSearchTerm={(term)=>this.onSearchTerm(term)} movieList={this.state.movieList}/>
         <div style={styles.container}>
-          <div style={styles.nomovie} ></div>
+          {/* <div style={styles.nomovie} ></div> */}
           <MovieCard style={styles.yesmovie} movie={this.state.movie}/>
         </div>
       </div>

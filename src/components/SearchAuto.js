@@ -115,7 +115,7 @@ class SearchAuto extends React.Component {
     
     
     const { value, suggestions } = this.state;
-    const { movieList } = this.props;
+    //const { movieList } = this.props;
     const inputProps = {
       placeholder: 'Type a movie name',
       value,
